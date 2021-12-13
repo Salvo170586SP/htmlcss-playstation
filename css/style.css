@@ -3,7 +3,24 @@ header{
     border: 2px dashed red;
 }
 
-#jumbotron{
-    min-height: 500px;
+section
+{
     border: 2px dashed blue;
 }
+
+#card-game, #ps5, #ps4, #ps-store-buy, footer {
+    
+    min-height: 700px;
+}
+
+
+#jumbotron, #ps-plus, #ps-now, #social-media{
+    min-height: 500px;
+}
+
+
+footer{
+    min-height: 700px;
+    border: 2px dashed red;
+}
+
