@@ -7,13 +7,13 @@
 
 
 
- .logo-returnal{
+ .logo-jumbotron{
      border: 2px solid red;
      width: 250px;
-     margin-top: 200px;
+/*      margin-top: 200px; */
 }
 
-.logo-returnal img{
+.logo-jumbotron img{
     width: 100%;
 }
  
@@ -59,25 +59,52 @@ figure img{
 
 section
 {
-    border: 2px dashed blue;
+/*     min-height: 400px;
+ */    border: 2px dashed blue;
 }
 
-#card-game, #ps5, #ps4, #ps-store-buy, footer {
+.returnal{
+    min-height: 500px;
+
+}
+
+.ps-plus-img{
+    width: 100%;
+}
+
+/* #card-game, #ps5, #ps4, #ps-store-buy, footer {
     
     min-height: 700px;
-}
+} */
 
-
+/* 
 #jumbotron, #ps-plus, #ps-now, #social-media{
     min-height: 500px;
 }
- 
+  */
+
+#ps-plus{
+    background-color: #BEBCBB;
+}
 
 .returnal{
     background-image: url('/img/jumbo-bg.png');
     background-position: center;
     background-size: cover;
 }
+
+
+/* #ps-plus-img{
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px;
+} */
+
+
+
+
+
 
 footer{
     min-height: 700px;
