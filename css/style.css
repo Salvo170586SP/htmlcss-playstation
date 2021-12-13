@@ -35,13 +35,19 @@ figure img{
 }
 
 .logo-takes-two{
-    width: 250px;
+    width: 350px;
+    margin-top: 50px;
+
+
 }
 
 .logo-takes-two img{
     width: 100%;
 }
 
+.card-rounded{
+    border-radius: 20px;
+}
 
 .row{
     border: 1px solid green;
