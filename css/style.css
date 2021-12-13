@@ -15,9 +15,17 @@
 
 .logo-returnal img{
     width: 100%;
- }
+}
  
 
+figure{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+figure img{
+    width: 100%;
+}
 
 
 
