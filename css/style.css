@@ -3,6 +3,12 @@ header{
     border: 2px dashed red;
 }
 
+#logo{
+    border: 1px solid red;
+    width: 80px;
+  
+}
+
 .header-top{
     height: 40px;
 }
