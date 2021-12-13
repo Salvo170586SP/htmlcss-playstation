@@ -28,6 +28,20 @@ figure img{
 }
 
 
+.takes-two{
+    background-image: url('/img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-takes-two{
+    width: 250px;
+}
+
+.logo-takes-two img{
+    width: 100%;
+}
+
 
 .row{
     border: 1px solid green;
