@@ -28,6 +28,12 @@ a:hover{
     color: blue;
 }
 
+
+.up:hover{
+    transition: 0.4s;
+    margin-top: -10px;
+}
+
 /* color */
 :root{
     --light-grey: #BEBCBB;
