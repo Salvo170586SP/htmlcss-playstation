@@ -13,7 +13,6 @@ figure img {
     width: 100%;
 }
 
-
 .card-rounded {
     border-radius: 20px;
 }
@@ -29,6 +28,10 @@ header {
     border: 1px solid red;
     width: 80px;
 
+}
+
+.lens{
+    width: 30px;
 }
 
 /* ********JUMBOTRON RETURNAL********** */
