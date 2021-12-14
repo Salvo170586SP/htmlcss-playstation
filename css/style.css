@@ -18,6 +18,9 @@ figure img {
     border-radius: 20px;
 }
 
+a{
+    cursor: pointer;
+}
 
 /* *********HEADER********** */
 header {
