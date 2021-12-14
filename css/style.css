@@ -1,20 +1,9 @@
-#logo {
-    border: 1px solid red;
-    width: 80px;
-
+body {
+    margin-top: 110px;
 }
 
 
-.logo-jumbotron {
-    border: 2px solid red;
-    width: 250px;
-}
-
-.logo-jumbotron img {
-    width: 100%;
-}
-
-
+/* UTILITY */
 .fig-radius {
     border-radius: 10px;
     overflow: hidden;
@@ -24,6 +13,47 @@ figure img {
     width: 100%;
 }
 
+
+.card-rounded {
+    border-radius: 20px;
+}
+
+
+/* *********HEADER********** */
+
+header {
+    z-index: 1;
+}
+
+#logo {
+    border: 1px solid red;
+    width: 80px;
+
+}
+
+/* ********JUMBOTRON RETURNAL********** */
+.logo-jumbotron {
+    border: 2px solid red;
+    width: 250px;
+}
+
+.returnal {
+    background-image: url('/img/jumbo-bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.logo-jumbotron img {
+    width: 100%;
+}
+
+.returnal {
+    min-height: 500px;
+
+}
+
+/* *********JUMBOTRON TAKES TWO*********** */
 
 .takes-two {
     background-image: url('/img/it-takes-two-hero-banner-desktop.jpg');
@@ -40,9 +70,9 @@ figure img {
     width: 100%;
 }
 
-.card-rounded {
-    border-radius: 20px;
-}
+
+
+
 
 .row {
     border: 1px solid green;
@@ -56,31 +86,15 @@ section {
     border: 2px dashed blue;
 }
 
-.returnal {
-    min-height: 500px;
 
-}
 
 #ps-plus {
     background-color: #BEBCBB;
 }
 
-#ps-now{
+#ps-now {
     background-color: #161C3B;
 }
-
-/* .ps-plus-img {
-    border: 2px solid red;
-    width: 100%;
-} */
-
-
-.returnal {
-    background-image: url('/img/jumbo-bg.png');
-    background-position: center;
-    background-size: cover;
-}
-
 
 
 footer {
@@ -88,6 +102,6 @@ footer {
     background-color: #00439C;
 }
 
-.fig-sie-logo{
+.fig-sie-logo {
     width: 150px;
 }
