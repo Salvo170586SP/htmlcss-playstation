@@ -40,10 +40,6 @@ header {
 }
 
 /* ********JUMBOTRON RETURNAL********** */
-.logo-jumbotron {
-    width: 250px;
-}
-
 .returnal {
     background-image: url('/img/jumbo-bg.png');
     background-position: top;
@@ -56,7 +52,6 @@ header {
 
 .returnal {
     min-height: 600px;
-
 }
 
 /* *********JUMBOTRON TAKES TWO*********** */
@@ -64,15 +59,6 @@ header {
     background-image: url('/img/it-takes-two-hero-banner-desktop.jpg');
     background-position: center;
     background-size: cover;
-}
-
-.logo-takes-two {
-    width: 350px;
-    margin-top: 50px;
-}
-
-.logo-takes-two img {
-    width: 100%;
 }
 
 /* ***********JUMBOTRON PS PLUS************ */
@@ -85,7 +71,6 @@ header {
 #ps-now {
     background-color: #161C3B;
 }
-
 
 
 /* ********FOOTER********** */
