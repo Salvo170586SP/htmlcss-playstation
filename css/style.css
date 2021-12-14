@@ -34,6 +34,11 @@ header {
     width: 30px;
 }
 
+
+.chevron-down{
+    width: 10px;
+}
+
 /* ********JUMBOTRON RETURNAL********** */
 .logo-jumbotron {
     border: 2px solid red;
