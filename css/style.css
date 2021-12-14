@@ -47,7 +47,7 @@ header {
 
 .returnal {
     background-image: url('/img/jumbo-bg.png');
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
@@ -57,7 +57,7 @@ header {
 }
 
 .returnal {
-    min-height: 500px;
+    min-height: 600px;
 
 }
 
@@ -109,6 +109,10 @@ section {
 footer {
     border: 2px dashed red;
     background-color: #00439C;
+}
+
+.lenguage-globe{
+    width: 15px;
 }
 
 .fig-sie-logo {
