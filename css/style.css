@@ -23,11 +23,19 @@ a{
     color: black;
 }
 
+
 /* hover */
 a:hover{
     color: blue;
 }
 
+button:hover{
+    box-shadow: inset 0 0 0 3px white;
+}
+
+.btn-light:hover{
+    box-shadow: inset 0 0 0 3px black;
+}
 
 .up:hover{
     transition: 0.4s;
