@@ -12,7 +12,7 @@ body {
 figure img {
     width: 100%;
 }
-
+ 
 .card-rounded {
     border-radius: 20px;
 }
@@ -60,22 +60,19 @@ header {
 }
 
 /* ********JUMBOTRON RETURNAL********** */
-.returnal {
+#returnal {
     background-image: url('/img/jumbo-bg.png');
     background-position: top;
     background-size: cover;
+    min-height: 600px;
 }
 
 .logo-jumbotron img {
     width: 100%;
 }
 
-.returnal {
-    min-height: 600px;
-}
-
 /* *********JUMBOTRON TAKES TWO*********** */
-.takes-two {
+#takes-two {
     background-image: url('/img/it-takes-two-hero-banner-desktop.jpg');
     background-position: center;
     background-size: cover;
