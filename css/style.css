@@ -65,12 +65,14 @@ section {
     background-color: #BEBCBB;
 }
 
+#ps-now{
+    background-color: #161C3B;
+}
 
-
-.ps-plus-img {
+/* .ps-plus-img {
     border: 2px solid red;
     width: 100%;
-}
+} */
 
 
 .returnal {
