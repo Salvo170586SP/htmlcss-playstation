@@ -3,7 +3,6 @@ body {
     margin-top: 100px;
 }
 
-
 /* UTILITY */
 .fig-radius {
     border-radius: 10px;
@@ -21,6 +20,26 @@ figure img {
 a{
     cursor: pointer;
 }
+
+/* color */
+:root{
+    --light-grey: #BEBCBB;
+    --night-blue: #161C3B;
+    --light-blue: #00439C;
+}
+
+.light-grey {
+    background-color: var(--light-grey);
+}
+
+.light-blue {
+    background-color: var(--light-blue);
+}
+
+.night-blue{
+    background-color: var(--night-blue);
+}
+
 
 /* *********HEADER********** */
 header {
@@ -63,21 +82,15 @@ header {
 
 /* ***********JUMBOTRON PS PLUS************ */
 #ps-plus {
-    background-color: #BEBCBB;
+  max-height: 400px;
 }
 
-
-/* ************LUMBOTRON PS NOW ************* */
-#ps-now {
-    background-color: #161C3B;
+.ps-plus-img{
+    max-height: 400px;
 }
 
 
 /* ********FOOTER********** */
-footer {
-    background-color: #00439C;
-}
-
 .lenguage-globe{
     width: 15px;
 }
