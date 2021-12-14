@@ -20,6 +20,12 @@ figure img {
 a{
     cursor: pointer;
     text-decoration: none;
+    color: black;
+}
+
+/* hover */
+a:hover{
+    color: blue;
 }
 
 /* color */
@@ -42,6 +48,7 @@ a{
 }
 
 
+
 /* *********HEADER********** */
 header {
     z-index: 1;
@@ -53,10 +60,6 @@ header {
 
 .lens{
     width: 30px;
-}
-
-.chevron-down{
-    width: 10px;
 }
 
 /* ********JUMBOTRON RETURNAL********** */
