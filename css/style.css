@@ -15,7 +15,7 @@
 }
 
 
-figure {
+.fig-radius {
     border-radius: 10px;
     overflow: hidden;
 }
