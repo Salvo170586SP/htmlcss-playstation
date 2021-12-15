@@ -29,9 +29,14 @@ a {
 }
 
 
-.bx-shadow{
+.bx-shadow {
     box-shadow: 0 0 15px 1px black;
 }
+
+.b-button{
+    border-bottom: 3px solid blue;
+}
+
 
 /* hover */
 a:hover {
@@ -51,11 +56,11 @@ a:hover {
     margin-top: -15px;
 }
 
-.layover{
+.layover {
     opacity: 0.5;
 }
 
-.layover:hover{
+.layover:hover {
     transition: 0.5s;
     opacity: 1;
 }
