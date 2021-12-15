@@ -29,12 +29,8 @@ a {
 }
 
 
-.bx-shadow {
-    box-shadow: 0 0 15px 1px black;
-}
-
-
 /* hover */
+
 a:hover {
     color: blue;
 }
@@ -51,6 +47,7 @@ a:hover {
     transition: 0.3s;
     margin-top: -15px;
 }
+
 
 .layover {
     opacity: 0.5;
