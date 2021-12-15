@@ -12,38 +12,64 @@ body {
 figure img {
     width: 100%;
 }
- 
+
 .card-rounded {
     border-radius: 20px;
 }
 
-a{
+a {
     cursor: pointer;
     text-decoration: none;
     color: black;
 }
 
+.pointer{
+    cursor: pointer;
+}
 
 /* hover */
-a:hover{
+a:hover {
     color: blue;
 }
 
-button:hover{
+button:hover {
     box-shadow: inset 0 0 0 3px white;
 }
 
-.btn-light:hover{
+.btn-light:hover {
     box-shadow: inset 0 0 0 3px black;
 }
 
-.up:hover{
+.up:hover {
     transition: 0.4s;
     margin-top: -10px;
 }
 
+.contain-layover {
+    position: relative;
+}
+
+.layover::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.288);
+    display: block;
+}
+
+.layover:hover::before {
+    display: none;
+    transition: 1s;
+
+}
+
+
+
 /* color */
-:root{
+:root {
     --light-grey: #BEBCBB;
     --night-blue: #161C3B;
     --light-blue: #00439C;
@@ -57,7 +83,7 @@ button:hover{
     background-color: var(--light-blue);
 }
 
-.night-blue{
+.night-blue {
     background-color: var(--night-blue);
 }
 
@@ -72,7 +98,7 @@ header {
     width: 80px;
 }
 
-.lens{
+.lens {
     width: 30px;
 }
 
@@ -97,16 +123,16 @@ header {
 
 /* ***********JUMBOTRON PS PLUS************ */
 #ps-plus {
-  max-height: 400px;
+    max-height: 400px;
 }
 
-.ps-plus-img{
+.ps-plus-img {
     max-height: 315px;
 }
 
 
 /* ********FOOTER********** */
-.lenguage-globe{
+.lenguage-globe {
     width: 15px;
 }
 
