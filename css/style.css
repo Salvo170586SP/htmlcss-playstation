@@ -98,7 +98,7 @@ header {
 
 /* ********JUMBOTRON RETURNAL********** */
 #returnal {
-    background-image: url('/img/jumbo-bg.png');
+    background-image: url('../img/jumbo-bg.png');
     background-position: top;
     background-size: cover;
     min-height: 600px;
@@ -110,7 +110,7 @@ header {
 
 /* *********JUMBOTRON TAKES TWO*********** */
 #takes-two {
-    background-image: url('/img/it-takes-two-hero-banner-desktop.jpg');
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-position: center;
     background-size: cover;
 }
