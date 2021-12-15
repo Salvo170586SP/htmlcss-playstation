@@ -27,6 +27,11 @@ a {
     cursor: pointer;
 }
 
+
+.bx-shadow{
+    box-shadow: 0 0 15px 1px black;
+}
+
 /* hover */
 a:hover {
     color: blue;
@@ -41,8 +46,8 @@ a:hover {
 }
 
 .up:hover {
-    transition: 0.4s;
-    margin-top: -10px;
+    transition: 0.3s;
+    margin-top: -15px;
 }
 
 .layover{
